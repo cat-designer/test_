@@ -1,14 +1,14 @@
-@import url("/style/modal.css");
+@import url("style/modal.css");
 * {
    padding: 0px;
    margin: 0px;
    font-family: "Manrope", sans-serif;
 }
 
-a{
-	text-decoration: none;
-	color: #244C98;
-	font-weight: 500;
+a {
+   text-decoration: none;
+   color: #244c98;
+   font-weight: 500;
 }
 
 .page-wrapper {
@@ -62,7 +62,7 @@ a{
    font-size: 18px;
    line-height: 28.8px;
    font-weight: 500;
-	 cursor: pointer;
+   cursor: pointer;
 }
 
 .common__left-side__button__wrapper {
@@ -79,7 +79,7 @@ a{
 
 .common__right-side {
    width: 910px;
-   background-image: url("/img/comp.png");
+   background-image: url("img/comp.png");
    border-radius: 0px 10px 10px 0px;
 }
 
@@ -96,7 +96,7 @@ a{
    }
    .common__right-side {
       width: 680px;
-      background-image: url("/img/1440res.png");
+      background-image: url("img/1440res.png");
    }
 }
 
@@ -157,7 +157,7 @@ a{
    .common__right-side {
       width: 720px;
       height: 360px;
-      background-image: url("/img/768res.png");
+      background-image: url("img/768res.png");
       border-radius: 0px 0px 10px 10px;
    }
 }
@@ -203,6 +203,6 @@ a{
    .common__right-side {
       width: 327px;
       height: 220px;
-      background-image: url("/img/375res.png");
+      background-image: url("img/375res.png");
    }
 }
