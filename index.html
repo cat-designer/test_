@@ -1,15 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<div class="page-wrapper">
-		<div class="page-content">
-			
-		</div>
-	</div>
-</body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="/style/style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="page-wrapper">
+         <main>
+            <div class="page-content">
+               <div class="common">
+                  <div class="common__left-side">
+                     <div class="common__left-side__text">
+                        <div class="titleText">Демо-версия</div>
+                        <div class="subtitleText">
+                           За 18 лет деятельности было реализовано более 500
+                           крупных, а так же, не менее 2500 средних и малых
+                           проектов. Используя знания и накопленный опыт мы
+                           можем предложить
+                        </div>
+                     </div>
+
+                     <div class="common__left-side__button">
+                        <div class="common__left-side__button__wrapper">
+                           <div>Попробовать бесплатно</div>
+                           <div
+                              class="common__left-side__button__wrapper__arrow"
+                           >
+                              <img src="/img/arrow.svg" alt="arrow" />
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="modal-overlay hide">
+                        <div class="modal-wrapper">
+                           <div class="close-btn-wrapper">
+                              <div class="close-modal-btn">
+                                 <img src="/img/x.png" alt="" />
+                              </div>
+                           </div>
+                           <div class="modal-content">
+                              <form class="modal-content__form" action="">
+                                 <div>Войти в систему</div>
+                                 <div class="modal-content__form__mail-pass">
+                                    <input
+                                       class="modal-content__form__mail-pass__mail"
+                                       type="email"
+                                       placeholder="Email/Телефон"
+                                    />
+                                    <input
+                                       class="modal-content__form__mail-pass__pass"
+                                       type="password"
+                                       name="Пароль"
+                                       id=""
+                                       placeholder="Пароль"
+                                    />
+                                 </div>
+                                 <div class="modal-content__form__checkbox">
+                                    <input
+                                       class="modal-content__form__checkbox__checkbox"
+                                       type="checkbox"
+                                       name="Запомнить пароль"
+                                       id=""
+                                    />Запомнить пароль
+                                 </div>
+                                 <div class="modal-content__form__recovery">
+                                    <a href="http://">Восстановить</a>
+                                 </div>
+                                 <div
+                                    class="modal-content__form__btn-wrapper"
+                                 ></div>
+                                 <input
+                                    class="modal-content__form__btn-wrapper__enter"
+                                    type="button"
+                                    value="Войти"
+                                 />
+                                 <input
+                                    class="modal-content__form__btn-wrapper__register"
+                                    type="button"
+                                    value="Зарегестрироваться"
+                                 />
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="common__right-side"></div>
+               </div>
+            </div>
+         </main>
+      </div>
+      <script src="js/script.js"></script>
+   </body>
 </html>
