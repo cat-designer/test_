@@ -79,7 +79,7 @@ a{
 
 .common__right-side {
    width: 910px;
-   background-image: url("/img/comp.png");
+   background-image: url("img/comp.png");
    border-radius: 0px 10px 10px 0px;
 }
 
@@ -96,7 +96,7 @@ a{
    }
    .common__right-side {
       width: 680px;
-      background-image: url("/img/1440res.png");
+      background-image: url("img/1440res.png");
    }
 }
 
@@ -157,7 +157,7 @@ a{
    .common__right-side {
       width: 720px;
       height: 360px;
-      background-image: url("/img/768res.png");
+      background-image: url("img/768res.png");
       border-radius: 0px 0px 10px 10px;
    }
 }
@@ -203,6 +203,6 @@ a{
    .common__right-side {
       width: 327px;
       height: 220px;
-      background-image: url("/img/375res.png");
+      background-image: url("img/375res.png");
    }
 }
