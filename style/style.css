@@ -77,8 +77,10 @@ a {
 }
 
 .common__right-side {
+   display: block;
    width: 910px;
    background-image: url("img/comp.png");
+   background-size:100% 100%;
    border-radius: 0px 10px 10px 0px;
 }
 
@@ -94,8 +96,10 @@ a {
       max-width: 511px;
    }
    .common__right-side {
+      display: block;
       width: 680px;
       background-image: url("img/1440res.png");
+      background-size:100% 100%;
    }
 }
 
@@ -154,9 +158,11 @@ a {
    }
 
    .common__right-side {
+      display: block;
       width: 720px;
       height: 360px;
       background-image: url("img/768res.png");
+      background-size:100% 100%;
       border-radius: 0px 0px 10px 10px;
    }
 }
@@ -200,8 +206,10 @@ a {
    }
 
    .common__right-side {
+      display: block;
       width: 327px;
       height: 220px;
       background-image: url("img/375res.png");
+      background-size:100% 100%;
    }
 }
