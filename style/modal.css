@@ -101,6 +101,7 @@
    color: #ffffff;
    font-size: 18px;
    font-weight: 500;
+   cursor: pointer;
 }
 .modal-content__form__btn-wrapper__register {
    margin-top: 4px;
